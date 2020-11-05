@@ -18,9 +18,10 @@
 ### Var Obbligatorie
 
 - Solo queste due variabili sono obbligatorie:
-  - `APP_ID`: Valore da ottenere da <https://my.telegram.org>
-  - `API_HASH`: Valore da ottenere da <https://my.telegram.org>
-- Se non ci sono causerà: `telethon.errors.rpc_error_list.ApiIdPublishedFloodError`
+  - `APP_ID`: Valore ottenuto da my.telegram.org
+  - `APP_HASH`: Valore ottenuto da my.telegram.org
+  - `STRING_SESSION`: Valore ottenuto da teleton.setup o da altri siti generatori di stringhe
+  - `TOKEN_BOT`: Valore ottenuto da @BotFather su Telegram
 
 ***
 
